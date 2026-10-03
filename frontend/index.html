@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <!-- Axios CDN for HTTP Requests -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Employee Management</h1>
+    
+    <div class="form-container">
+        <h2>Add/Update Employee</h2>
+        <form id="employeeForm">
+            <input type="hidden" id="empId">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="department" placeholder="Department" required>
+            <input type="number" id="salary" placeholder="Salary" required>
+            <button type="submit">Save Employee</button>
+        </form>
+    </div>
+
+    <h2>Employee List</h2>
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated dynamically by JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

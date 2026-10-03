@@ -1,0 +1,15 @@
+Project Repository
+https://github.com/shaileshsonare/ip-fsd-project.git
+
+Git Commands:
+1. git clone <repository_url>
+2. git status
+3. git add .
+    OR
+   git add <file_name> <file_name2>
+4. git commit -m 'commit message'
+5. git push 
+    OR 
+   git push origin main
+6. git pull origin main
+
